@@ -39571,7 +39571,27 @@ class Carousel extends _react.Component {
       slidesToScroll: 4,
       initialSlide: 0,
       swipeToSlide: true,
-      dots: true
+      dots: true,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }, {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false
+        }
+      }]
     };
     let products = this.state.products;
     return _react.default.createElement("div", {
@@ -39649,7 +39669,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50756" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50825" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
