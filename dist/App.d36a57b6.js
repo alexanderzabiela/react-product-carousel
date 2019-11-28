@@ -34365,7 +34365,285 @@ var createRoute = function createRoute(basepath) {
 var shouldNavigate = function shouldNavigate(event) {
   return !event.defaultPrevented && event.button === 0 && !(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
 }; ////////////////////////////////////////////////////////////////////////
-},{"react":"../node_modules/react/index.js","warning":"../node_modules/warning/browser.js","prop-types":"../node_modules/prop-types/index.js","invariant":"../node_modules/invariant/browser.js","create-react-context":"../node_modules/create-react-context/lib/index.js","react-lifecycles-compat":"../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./lib/utils":"../node_modules/@reach/router/es/lib/utils.js","./lib/history":"../node_modules/@reach/router/es/lib/history.js"}],"Carousel.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","warning":"../node_modules/warning/browser.js","prop-types":"../node_modules/prop-types/index.js","invariant":"../node_modules/invariant/browser.js","create-react-context":"../node_modules/create-react-context/lib/index.js","react-lifecycles-compat":"../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./lib/utils":"../node_modules/@reach/router/es/lib/utils.js","./lib/history":"../node_modules/@reach/router/es/lib/history.js"}],"data.json":[function(require,module,exports) {
+module.exports = {
+  "numberOfItems": "10",
+  "carouselData": [{
+    "code": "17393738",
+    "erpCode": "17393738",
+    "typeName": "SI8600AD-B-IS",
+    "name": "Digital isolator SO-16W",
+    "url": "https://www.distrelec.biz/en/digital-isolator-so-16w-si8600ad-is/p/17393738?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/ho/to/SO-16W-Photo.jpg",
+    "itemPositionOneBased": "1",
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "",
+      "brand_logo": {
+        "url": ""
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "8.83"
+    },
+    "categories": ""
+  }, {
+    "code": "17311442",
+    "erpCode": "17311442",
+    "typeName": "ISD4004-08MP",
+    "name": "Audio/Video IC DIL-28",
+    "url": "https://www.distrelec.biz/en/audio-video-ic-dil-28-isd4004-08mp/p/17311442?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/_t/if/DIL-28-Photo.jpg",
+    "itemPositionOneBased": 2,
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "",
+      "brand_logo": {
+        "url": ""
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "15.50"
+    },
+    "categories": ""
+  }, {
+    "code": "30078040",
+    "erpCode": "30078040",
+    "typeName": "RND 550-00019",
+    "name": "Smart Tweezers 4999 uF",
+    "url": "https://www.distrelec.biz/en/smart-tweezers-4999-uf-rnd-lab-rnd-550-00019/p/30078040?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/0-/01/RND-RND 550-00019-30078040-01.jpg",
+    "itemPositionOneBased": 3,
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "RND Lab",
+      "brand_logo": {
+        "url": "https://www.distrelec.biz/Web/WebShopImages/manufacturer_logo/cm/yk/rnd_lab_cmyk.jpg"
+      }
+    },
+    "promoLabelCompensateClass": "compensate-promo",
+    "activePromotionLabels": [{
+      "code": "new",
+      "label": "new"
+    }],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "209.00"
+    },
+    "categories": ""
+  }, {
+    "code": "30027881",
+    "erpCode": "30027881",
+    "typeName": "5805",
+    "name": "Test Probe",
+    "url": "https://www.distrelec.biz/en/test-probe-5805/p/30027881?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/1-/01/Keithley-5805-30027881-01.jpg",
+    "itemPositionOneBased": 4,
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "",
+      "brand_logo": {
+        "url": ""
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "287.00"
+    },
+    "categories": ""
+  }, {
+    "code": "30061867",
+    "erpCode": "30061867",
+    "typeName": "RND 320-KD3005P",
+    "name": "Laboratory Power Supply 1 Ch. 0...30 VDC 5 A, Programmable",
+    "url": "https://www.distrelec.biz/en/laboratory-power-supply-ch-30-vdc-programmable-rnd-lab-rnd-320-kd3005p/p/30061867?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/7-/01/rnd-320-KD3005P-30061867-01.jpg",
+    "itemPositionOneBased": 5,
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "RND Lab",
+      "brand_logo": {
+        "url": "https://www.distrelec.biz/Web/WebShopImages/manufacturer_logo/cm/yk/rnd_lab_cmyk.jpg"
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "118.10"
+    },
+    "categories": ""
+  }, {
+    "code": "30043425",
+    "erpCode": "30043425",
+    "typeName": "RND 170-00005",
+    "name": "Fuse holder",
+    "url": "https://www.distrelec.biz/en/fuse-holder-rnd-components-rnd-170-00005/p/30043425?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/5-/01/RND-170-00005-30043425-01.jpg",
+    "itemPositionOneBased": 6,
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "RND Components",
+      "brand_logo": {
+        "url": "https://www.distrelec.biz/Web/WebShopImages/manufacturer_logo/cm/yk/rnd_components_cmyk.jpg"
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "1.62"
+    },
+    "categories": ""
+  }, {
+    "code": "17393730",
+    "erpCode": "17393730",
+    "typeName": "SI8610EC-B-IS",
+    "name": "Digital isolator SO-8",
+    "url": "https://www.distrelec.biz/en/digital-isolator-so-si8610ec-is/p/17393730?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/ho/to/SO-8-Photo.jpg",
+    "itemPositionOneBased": 7,
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "",
+      "brand_logo": {
+        "url": ""
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "4.67"
+    },
+    "categories": ""
+  }, {
+    "code": "17807654",
+    "erpCode": "17807654",
+    "typeName": "7687020",
+    "name": "GSM aerial FME/F",
+    "url": "https://www.distrelec.biz/en/gsm-aerial-fme-7687020/p/17807654?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/_t/if/shark-phone-gsm-900-1800.jpg",
+    "itemPositionOneBased": 8,
+    "originalPackSize": "",
+    "salesUnit": "1 Pieces",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "",
+      "brand_logo": {
+        "url": ""
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "47.20"
+    },
+    "categories": ""
+  }, {
+    "code": "15526660",
+    "erpCode": "15526660",
+    "typeName": "7/0,2MM TYPE 2 BLUE 500M",
+    "name": "Stranded wire, blue Stranded tin-plated copper wire PVC",
+    "url": "https://www.distrelec.biz/en/stranded-wire-blue-stranded-tin-plated-copper-wire-pvc-2mm-type-blue-500m/p/15526660?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/bl/ue/wiring_cable_straight_blue.jpg",
+    "itemPositionOneBased": 9,
+    "originalPackSize": "",
+    "salesUnit": "Roll of 500 meter",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "",
+      "brand_logo": {
+        "url": ""
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "39.20"
+    },
+    "categories": ""
+  }, {
+    "code": "15526496",
+    "erpCode": "15526496",
+    "typeName": "7/0,2MM TYPE 2 WHITE 100M",
+    "name": "Stranded wire, 0.22 mm², white Stranded tin-plated copper wire PVC",
+    "url": "https://www.distrelec.biz/en/stranded-wire-22-mm-white-stranded-tin-plated-copper-wire-pvc-2mm-type-white-100m/p/15526496?mainId=17623260",
+    "promotiontext": "",
+    "energyEfficiencyData": "",
+    "productImageAltText": "Image not found",
+    "productImageUrl": "https://www.distrelec.biz/Web/WebShopImages/landscape_medium/hi/te/wiring_cable_straight_white.jpg",
+    "itemPositionOneBased": 10,
+    "originalPackSize": "",
+    "salesUnit": "Roll of 100 meter",
+    "showCarouselItemHead": true,
+    "distManufacturer": {
+      "name": "",
+      "brand_logo": {
+        "url": ""
+      }
+    },
+    "promoLabelCompensateClass": "",
+    "activePromotionLabels": [],
+    "price": {
+      "currency": "GBP",
+      "formattedValue": "10.90"
+    },
+    "categories": ""
+  }]
+};
+},{}],"Carousel.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34375,24 +34653,55 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
+var _data = _interopRequireDefault(require("./data"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 class Carousel extends _react.Component {
+  constructor() {
+    super();
+    this.state = {
+      products: []
+    };
+  }
+
+  componentDidMount() {
+    let initialProducts = [];
+    initialProducts = _data.default.carouselData.map(product => {
+      return product;
+    });
+    this.setState({
+      products: initialProducts
+    });
+  }
+
   render() {
-    return _react.default.createElement("p", null, "placeholder") //fetch data from json file
-    //map throught and store in state
-    //set up slick slider
-    //display relevant info for each product (image, name, sales unit and price )
-    ;
+    let products = this.state.products;
+    return _react.default.createElement("div", {
+      className: "container"
+    }, _react.default.createElement("h2", null, "Related Products"), products.length === 0 ? _react.default.createElement("h1", null, "No Products") : products.map(product => _react.default.createElement("div", {
+      key: product.name
+    }, _react.default.createElement("a", {
+      href: product.url
+    }, _react.default.createElement("img", {
+      src: product.productImageUrl,
+      alt: product.productImageAltText
+    })), _react.default.createElement("a", {
+      href: product.url
+    }, _react.default.createElement("h3", null, product.name)), _react.default.createElement("span", null, "(", product.salesUnit, ")"), _react.default.createElement("p", null, product.price.currency, " ", product.price.formattedValue), _react.default.createElement("a", {
+      href: "#"
+    }, _react.default.createElement("button", null, "+ Add to cart")))));
   }
 
 }
 
 var _default = Carousel;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./data":"data.json"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -34514,7 +34823,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62279" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64872" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
