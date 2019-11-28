@@ -4,4 +4,4 @@ Product Carousel
 - Use of Parcel to compile and minify CSS / JS
 - Fully Responsive
 
-- Deployed to https:///alex-zabiela-test.netlify.com/
+- Deployed to <a href="https:///alex-zabiela-test.netlify.com/">Netlify</a>
