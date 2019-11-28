@@ -80,7 +80,9 @@ class Carousel extends Component {
                   {product.price.currency} {product.price.formattedValue}
                 </p>
                 <a href="#">
-                  <button>+ Add to cart</button>
+                  <button>
+                    <b>+</b> Add to cart
+                  </button>
                 </a>
               </div>
             ))

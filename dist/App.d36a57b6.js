@@ -39607,7 +39607,7 @@ class Carousel extends _react.Component {
       href: product.url
     }, _react.default.createElement("h3", null, product.name)), _react.default.createElement("span", null, "(", product.salesUnit, ")"), _react.default.createElement("p", null, product.price.currency, " ", product.price.formattedValue), _react.default.createElement("a", {
       href: "#"
-    }, _react.default.createElement("button", null, "+ Add to cart"))))));
+    }, _react.default.createElement("button", null, _react.default.createElement("b", null, "+"), " Add to cart"))))));
   }
 
 }
@@ -39669,7 +39669,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50825" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51635" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
